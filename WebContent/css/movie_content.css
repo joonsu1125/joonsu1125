@@ -1,0 +1,73 @@
+@charset "UTF-8";
+#content_form {
+	border: 0;
+}
+
+#content_form .btn {
+	height: 30px;
+	width: 150px;
+	background-color: #F5A9BC;
+	border: 0;
+	font-weight: bold;
+	color: white;
+}
+#content_form #moviePoster table tr:nth-child(1) td{
+	border-right: 6px solid #cccccc;
+}
+#content_form #moviePoster table tr:nth-child(2) th{
+	font-size: 1.3em;
+	text-align: left;
+}
+#content_form #reviewWrite table {
+	height: 150px;
+}
+
+#content_form #reviewWrite #memberWrite table tr td {
+	height: 100px;
+	overflow: hidden;
+}
+
+#content_form #reviewWrite table tr td h5 {
+	float: left;
+}
+
+#content_form #reviewWrite tr td input.btn {
+	width: 80px;
+	float: right;
+}
+
+#content_form #reviewList table {
+	margin-top: 30px;
+	height: 70px;
+	border-bottom: 1px solid #cccccc;
+}
+#content_form #reviewList table tr{
+	overflow: hidden;
+	margin: 0; 
+	padding: 5px;
+}
+#content_form #reviewList table  tr:nth-child(1) td:nth-child(1){
+	float:left;
+	font-weight: bold;
+	border-right: 2px solid #cccccc;
+}
+#content_form #reviewList table tr:nth-child(1) td:nth-child(2){
+	float: left;
+}
+#content_form #reviewList table tr:nth-child(2) td:nth-child(1){
+	float: left;
+	font-size: 0.7em;
+}
+#content_form .paging b {
+	color: white;
+}
+
+#content_form #ReviewListMoreCover {
+	width: 80px;
+}
+
+#content_form #ReviewListMoreCover #ReviewListMore {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#content_form h3{
+	text-align: left;
+	margin-left: 150px;
+}
+#content_form div .btn {
+	height: 30px;
+	width: 150px;
+	background-color: slateblue;
+	border: 0;
+	font-weight: bold;
+	color: white;
+}
+#content_form table tr td .btn {
+	height: 30px;
+	width: 150px;
+	background-color: slateblue;
+	border: 0;
+	font-weight: bold;
+	color: white;
+}

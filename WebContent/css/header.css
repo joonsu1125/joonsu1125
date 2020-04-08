@@ -1,0 +1,116 @@
+﻿
+@font-face {
+    font-family: 'Bangers';
+    src: url(../font/Bangers-Regular.ttf)
+}
+*{margin: 0 auto; padding: 0 auto;}
+a {color: black;
+	text-decoration: none;}
+#header {
+    width: 100%;
+    margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+#header #gnb {
+        width:1500px;
+        overflow: hidden;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #header #gnb .logo {
+        float: left;
+        height:100px;
+        margin: 5px 0 0 5px;
+        line-height: 100px;
+    }
+        #header #gnb .logo img {
+            margin: 0 0 0 10px;
+            float: left;
+            width: 90px;
+            height: 90px;
+            line-height: 90px;
+        }
+        #header #gnb .logo p {
+            float: left;
+            font-family: 'Bangers';
+            font-size: 2.4em;
+            text-align:center;
+        }
+    #header #gnb .sign {
+        float: right;
+        height: 100px;
+        width:400px;
+        overflow: hidden;
+        margin:5px 0 0 5px;
+        font-family: 'Noto Sans KR', sans-serif;
+        
+    }
+    #header #gnb .sign a {
+        width: 80px;
+         line-height: 30px;
+        float: right;
+    }
+    #header #gnb .sign a:hover{
+    	font-weight: bold;
+    }
+    	#header #gnb .sign span {
+        color:black;
+        float: right;
+        line-height: 30px;
+        font-weight: bold;
+        margin-right: 10px;
+	}
+ #header #lnb {
+	   font-family: 'Noto Sans KR', sans-serif;
+       width: 100%;
+       background-color: slateblue;
+       height: 60px;
+       position: relative;
+ }     
+ #header #lnb .board_menu{
+	margin: 0 auto;
+	text-align: center;
+	width:1500px;
+}
+#header #lnb .board_menu ul{
+	overflow: hidden;	
+	margin:0 auto;
+}
+#header #lnb .board_menu ul li{
+	float: left;
+	height: 60px;
+	width: 150px;
+	 font-size: 1.2em;
+	 text-align: center;
+	
+}
+#header #lnb .board_menu ul li a{
+	color:white;
+	height: 60px;
+	line-height: 60px;
+	 display: block;
+}
+#header #lnb .board_menu ul li ul{
+	display: none;
+}
+#header #lnb .board_menu ul li ul li{
+	clear: both;
+	 opacity: 0.8;
+	
+}
+#header #lnb .board_menu ul li:hover a{
+	 font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
